@@ -5,4 +5,4 @@ Some Notebook are written in R or Python. The step to install the R kernel for t
 
 List of Notebook
 - Batch vs Stochastic Gradient Descent
-- KNN from scratch
+- KNN
