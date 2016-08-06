@@ -14,11 +14,11 @@
 
 # 1 : understand how binary number are represented
 # 2 : Given an integer return a binary string format
-# 3 : Given a binary string =returns the position of all the 1
+# 3 : Given a binary string return a string of all the position of 1
     # work ? 1001001 : 1 4 7   1111 : 1 2 3 4 100111 : 1 4 5 6 
-# 4 : Given a string of position of 1 in the binary string representation, return the difference 
-#     of all index (string_character_position + 1) - (string_character_position)  -  1 
-#     (string_character_position range 1 : length(string position - 1)
+# 4 : Given a string of position of 1 of binary string representation, return the difference 
+#     of all 1 position (string_1_position + 1) - (string_1_position)  -  1 
+#     (string_1_position range 1 : length(string position - 1)
 # 5 : return the longest gap found in step 4
 
 install.packages('Hmisc')
