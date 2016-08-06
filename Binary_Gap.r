@@ -6,8 +6,11 @@
 ############################################################################################################################################################
 # problem statement ------------------------------------
 
-# challenge : given a positive integer N, returns the length of its longest binary gap. The function should return 0 if N doesn't contain a binary gap.
-# definition: A binary gap within a positive integer N is any maximal sequence of consecutive zeros that is surrounded by ones at both ends in the binary representation of N. The length is the number of 0 (1001). here it's 2. If a number is 10010001. There there is 2 gap. the longest length is 0 
+# challenge : given a positive integer N, returns the length of its longest binary gap. The function should return
+#             0 if N doesn't contain a binary gap.
+# definition: A binary gap within a positive integer N is any maximal sequence of consecutive zeros that is 
+#             surrounded by ones at both ends in the binary representation of N. The length is the number of 0 (1001). 
+#             here it's 2. If a number is 10010001. There there is 2 gap. the longest length is 0 
 # assumption : range of 2 bilions damn
 
 # how to solve the problem ------------------------------------
