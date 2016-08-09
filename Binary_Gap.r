@@ -1,28 +1,26 @@
 ############################################################################################################################################################
-                                                                                                                                                           # 
-# title : codility binary gap challenge                                                                                                                  #
+                                                                                                                                                           #                                                                                                                 #
 # author : Jean-Philippe Mallette                                                                                                                          #    
                                                                                                                                                            #
 ############################################################################################################################################################
 # problem statement ------------------------------------
 
-# challenge : given a positive integer N, returns the length of its longest binary gap. The function should return
-#             0 if N doesn't contain a binary gap.
+# challenge : given a positive integer N, returns the length of its longest binary gap number representation. 
+#             The function should return 0 if N doesn't contain a binary gap.
+#
 # definition: A binary gap within a positive integer N is any maximal sequence of consecutive zeros that is 
 #             surrounded by ones at both ends in the binary representation of N. The length is the number of 0 (1001). 
 #             here it's 2. If a number is 10010001. There there is 2 gap. the longest length is 0 
-# assumption : range of 2 bilions damn
+# assumption : range of 2 bilions
 
 # how to solve the problem ------------------------------------
 
-# 1 : understand how binary number are represented
-# 2 : Given an integer return a binary string format
-# 3 : Given a binary string return a string of all the position of 1
-    # work ? 1001001 : 1 4 7   1111 : 1 2 3 4 100111 : 1 4 5 6 
-# 4 : Given a string of position of 1 of binary string representation, return the difference 
+# 1 : Given an integer return a binary string format
+# 2 : Given a binary string return a string of all the position of 1
+# 3 : Given a string of position of 1 of binary string representation, return the difference 
 #     of all 1 position (string_1_position + 1) - (string_1_position)  -  1 
 #     (string_1_position range 1 : length(string position - 1)
-# 5 : return the longest gap found in step 4
+# 4 : return the longest gap found in step 4
 
 install.packages('Hmisc')
 library(Hmisc) # for Lag function
