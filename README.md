@@ -5,4 +5,5 @@ In this repository, I post notebook and scripts of data science algorithm implem
 List of Notebook
 - Batch vs Stochastic Gradient Descent
 - KNN
-- Longest Binary Gap Challenge
+- Binary Gap 
+- Decimal to Binary conversion
